@@ -1,0 +1,12 @@
+18:24:28 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+
+18:24:29 Build Finished (took 180ms)
+

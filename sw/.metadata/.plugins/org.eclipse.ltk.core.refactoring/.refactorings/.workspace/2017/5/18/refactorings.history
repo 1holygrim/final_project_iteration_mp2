@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/camera_app" element2="/system_bsp" element3="/system_hw_platform" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1493766824835"/>&#x0A;<refactoring comment="Delete resource &apos;old_system_bsp&apos;" deleteContents="false" description="Delete resource &apos;old_system_bsp&apos;" element1="/old_system_bsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1493767154403"/>
+</session>

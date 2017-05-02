@@ -1,0 +1,25 @@
+15:35:32 **** Build of project system_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/MP-2/repository/ProcessorIPLib -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/MP-2/repository/ProcessorIPLib -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - fmc_imageon_vita_receiver - C:\tmp\MP-2\sw\system_bsp\system.mss
+   line 177 - No IP instance named fmc_imageon_vita_receiver_0 is present in the
+   hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+
+15:35:33 Build Finished (took 911ms)
+

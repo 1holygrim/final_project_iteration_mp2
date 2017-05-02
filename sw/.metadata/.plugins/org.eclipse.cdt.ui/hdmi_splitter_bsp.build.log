@@ -1,0 +1,35 @@
+18:24:27 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - iic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 21 - No
+   IP instance named axi_iic_0 is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 33 -
+   No IP instance named axi_vdma_fmc_out is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 39 -
+   No IP instance named axi_vdma_in is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 45 -
+   No IP instance named axi_vdma_zed_out is present in the hardware!
+ERROR:EDK:410 - generic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 63 -
+   No IP instance named fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 273 -
+   No IP instance named v_scaler_fmc is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 279 -
+   No IP instance named v_scaler_zed is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+
+18:24:28 Build Finished (took 931ms)
+

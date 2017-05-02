@@ -1,0 +1,398 @@
+15:36:14 **** Incremental Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:14:03 **** Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+'Finished building: ../src/camera_app.c'
+' '
+'Building file: ../src/fmc_imageon_utils.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fmc_imageon_utils.d" -MT"src/fmc_imageon_utils.d" -o "src/fmc_imageon_utils.o" "../src/fmc_imageon_utils.c"
+../src/fmc_imageon_utils.c: In function 'fmc_imageon_enable_vita':
+../src/fmc_imageon_utils.c:242:8: warning: unused variable 'ret' [-Wunused-variable]
+'Finished building: ../src/fmc_imageon_utils.c'
+' '
+'Building file: ../src/video_detector.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_detector.d" -MT"src/video_detector.d" -o "src/video_detector.o" "../src/video_detector.c"
+../src/video_detector.c: In function 'vdet_init':
+../src/video_detector.c:117:6: warning: unused variable 'ResolutionId' [-Wunused-variable]
+../src/video_detector.c:116:10: warning: unused variable 'Height' [-Wunused-variable]
+../src/video_detector.c:115:10: warning: unused variable 'Width' [-Wunused-variable]
+../src/video_detector.c: In function 'vdet_detect':
+../src/video_detector.c:168:20: warning: unused variable 'SourceSelect' [-Wunused-variable]
+../src/video_detector.c:167:16: warning: unused variable 'Polarity' [-Wunused-variable]
+../src/video_detector.c: In function 'vdet_config':
+../src/video_detector.c:226:6: warning: unused variable 'Status' [-Wunused-variable]
+'Finished building: ../src/video_detector.c'
+' '
+'Building file: ../src/video_frame_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_frame_buffer.d" -MT"src/video_frame_buffer.d" -o "src/video_frame_buffer.o" "../src/video_frame_buffer.c"
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:53:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+../src/video_frame_buffer.c:52:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+../src/video_frame_buffer.c:51:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:78:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+../src/video_frame_buffer.c:110:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+'Finished building: ../src/video_frame_buffer.c'
+' '
+'Building file: ../src/video_generator.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_generator.d" -MT"src/video_generator.d" -o "src/video_generator.o" "../src/video_generator.c"
+../src/video_generator.c: In function 'vgen_init':
+../src/video_generator.c:118:6: warning: unused variable 'ResolutionId' [-Wunused-variable]
+../src/video_generator.c:117:10: warning: unused variable 'Height' [-Wunused-variable]
+../src/video_generator.c:116:10: warning: unused variable 'Width' [-Wunused-variable]
+../src/video_generator.c: In function 'vgen_config':
+../src/video_generator.c:166:6: warning: unused variable 'Status' [-Wunused-variable]
+'Finished building: ../src/video_generator.c'
+' '
+'Building file: ../src/video_resolution.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_resolution.d" -MT"src/video_resolution.d" -o "src/video_resolution.o" "../src/video_resolution.c"
+'Finished building: ../src/video_resolution.c'
+' '
+'Building file: ../src/xtpg_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../system_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xtpg_app.d" -MT"src/xtpg_app.d" -o "src/xtpg_app.o" "../src/xtpg_app.c"
+../src/xtpg_app.c: In function 'xTPG_main':
+../src/xtpg_app.c:66:7: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+../src/xtpg_app.c:67:7: warning: implicit declaration of function 'inbyte' [-Wimplicit-function-declaration]
+../src/xtpg_app.c:68:7: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+../src/xtpg_app.c:39:27: warning: unused variable 'pass' [-Wunused-variable]
+../src/xtpg_app.c:39:19: warning: unused variable 'offset' [-Wunused-variable]
+../src/xtpg_app.c:39:14: warning: unused variable 'num' [-Wunused-variable]
+../src/xtpg_app.c:39:11: warning: unused variable 'j' [-Wunused-variable]
+../src/xtpg_app.c:39:8: warning: unused variable 'i' [-Wunused-variable]
+../src/xtpg_app.c:38:28: warning: unused variable 'fstore_address' [-Wunused-variable]
+../src/xtpg_app.c:38:18: warning: unused variable 'y_offset' [-Wunused-variable]
+../src/xtpg_app.c:38:8: warning: unused variable 'x_offset' [-Wunused-variable]
+../src/xtpg_app.c:37:29: warning: unused variable 'data_read' [-Wunused-variable]
+../src/xtpg_app.c:37:23: warning: unused variable 'mask' [-Wunused-variable]
+../src/xtpg_app.c:37:17: warning: unused variable 'data' [-Wunused-variable]
+../src/xtpg_app.c:36:38: warning: unused variable 'taddress' [-Wunused-variable]
+../src/xtpg_app.c:36:28: warning: unused variable 'address' [-Wunused-variable]
+'Finished building: ../src/xtpg_app.c'
+' '
+'Building target: camera_app.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../system_bsp/ps7_cortexa9_0/lib -o "camera_app.elf"  ./src/camera_app.o ./src/fmc_imageon_utils.o ./src/video_detector.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/xtpg_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/14.7/ise_ds/edk/gnu/arm/nt/bin/../lib/gcc/arm-xilinx-eabi/4.7.3/../../../../arm-xilinx-eabi/bin/ld.exe: cannot find -lxil
+collect2.exe: error: ld returned 1 exit status
+make: *** [camera_app.elf] Error 1
+18:14:05 **** Build of project old_system_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/MP-2/repository/ProcessorIPLib -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/MP-2/repository/ProcessorIPLib -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - fmc_imageon_vita_receiver -
+   C:\tmp\MP-2\sw\old_system_bsp\system.mss line 177 - No IP instance named
+   fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+18:14:06 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+'Finished building libraries'
+18:14:06 **** Clean-only build of configuration Debug for project hdmi_splitter ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  hdmi_splitter.elf.size  hdmi_splitter.elf
+' '
+18:14:06 **** Build of configuration Debug for project hdmi_splitter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hdmi_splitter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hdmi_splitter_bsp/ps7_cortexa9_0/lib -o "hdmi_splitter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hdmi_splitter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_splitter.elf  |tee "hdmi_splitter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22872	   1096	  29780	  53748	   d1f4	hdmi_splitter.elf
+'Finished building: hdmi_splitter.elf.size'
+' '
+18:19:20 **** Clean-only build of configuration Debug for project camera_app ****
+make clean 
+rm -rf  ./src/camera_app.o ./src/fmc_imageon_utils.o ./src/video_detector.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/xtpg_app.o  ./src/camera_app.d ./src/fmc_imageon_utils.d ./src/video_detector.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/xtpg_app.d  camera_app.elf.size  camera_app.elf
+' '
+18:19:20 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:27:21: fatal error: fmc_iic.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:20:03 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:75:2: error: unknown type name 'fmc_iic_t'
+../src/camera_app.h:76:2: error: unknown type name 'fmc_iic_t'
+../src/camera_app.h:78:2: error: unknown type name 'fmc_imageon_t'
+../src/camera_app.h:97:2: error: unknown type name 'fmc_imageon_video_timing_t'
+../src/camera_app.c: In function 'camera_config_init':
+../src/camera_app.c:50:46: error: 'XPAR_AXI_VDMA_0_DEVICE_ID' undeclared (first use in this function)
+../src/camera_app.c:50:46: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/camera_app.o] Error 1
+18:20:10 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:27:21: fatal error: fmc_iic.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:23:14 **** Clean-only build of project hdmi_splitter_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+18:23:14 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/MP-2/sw/old_system_bsp/ps7_cortexa9_0 -lp C:/tmp/MP-2/repository/ProcessorIPLib -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/MP-2/sw/old_system_bsp/ps7_cortexa9_0 -lp
+C:/tmp/MP-2/repository/ProcessorIPLib -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - iic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 21 - No
+   IP instance named axi_iic_0 is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 33 -
+   No IP instance named axi_vdma_fmc_out is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 39 -
+   No IP instance named axi_vdma_in is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 45 -
+   No IP instance named axi_vdma_zed_out is present in the hardware!
+ERROR:EDK:410 - generic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 63 -
+   No IP instance named fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 273 -
+   No IP instance named v_scaler_fmc is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 279 -
+   No IP instance named v_scaler_zed is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+18:23:15 **** Auto Build of configuration Debug for project hdmi_splitter ****
+make all 
+make: Nothing to be done for `all'.
+18:23:15 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:23:34 **** Clean-only build of project hdmi_splitter_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+18:23:35 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/MP-2/repository/ProcessorIPLib -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/MP-2/repository/ProcessorIPLib -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - iic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 21 - No
+   IP instance named axi_iic_0 is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 33 -
+   No IP instance named axi_vdma_fmc_out is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 39 -
+   No IP instance named axi_vdma_in is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 45 -
+   No IP instance named axi_vdma_zed_out is present in the hardware!
+ERROR:EDK:410 - generic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 63 -
+   No IP instance named fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 273 -
+   No IP instance named v_scaler_fmc is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 279 -
+   No IP instance named v_scaler_zed is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+18:23:35 **** Auto Build of configuration Debug for project hdmi_splitter ****
+make all 
+make: Nothing to be done for `all'.
+18:23:36 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:23:44 **** Clean-only build of configuration Debug for project camera_app ****
+make clean 
+rm -rf  ./src/camera_app.o ./src/fmc_imageon_utils.o ./src/video_detector.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/xtpg_app.o  ./src/camera_app.d ./src/fmc_imageon_utils.d ./src/video_detector.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/xtpg_app.d  camera_app.elf.size  camera_app.elf
+' '
+18:23:44 **** Clean-only build of configuration Debug for project hdmi_splitter ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  hdmi_splitter.elf.size  hdmi_splitter.elf
+' '
+18:23:44 **** Clean-only build of project hdmi_splitter_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+18:23:44 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/MP-2/repository/ProcessorIPLib -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/MP-2/repository/ProcessorIPLib -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - iic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 21 - No
+   IP instance named axi_iic_0 is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 33 -
+   No IP instance named axi_vdma_fmc_out is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 39 -
+   No IP instance named axi_vdma_in is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 45 -
+   No IP instance named axi_vdma_zed_out is present in the hardware!
+ERROR:EDK:410 - generic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 63 -
+   No IP instance named fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 273 -
+   No IP instance named v_scaler_fmc is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 279 -
+   No IP instance named v_scaler_zed is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+18:23:45 **** Build of configuration Debug for project hdmi_splitter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+../src/platform.c:42:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/platform.o] Error 1
+18:23:45 **** Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
+18:24:27 **** Clean-only build of project hdmi_splitter_bsp ****
+make -k clean 
+rm -rf ps7_cortexa9_0
+18:24:27 **** Build of project hdmi_splitter_bsp ****
+make -k all 
+libgen -hw ../system_hw_platform/system.xml\
+	       -lp C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0\
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - iic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 21 - No
+   IP instance named axi_iic_0 is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 33 -
+   No IP instance named axi_vdma_fmc_out is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 39 -
+   No IP instance named axi_vdma_in is present in the hardware!
+ERROR:EDK:410 - axivdma - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 45 -
+   No IP instance named axi_vdma_zed_out is present in the hardware!
+ERROR:EDK:410 - generic - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 63 -
+   No IP instance named fmc_imageon_vita_receiver_0 is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 273 -
+   No IP instance named v_scaler_fmc is present in the hardware!
+ERROR:EDK:410 - scaler - C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss line 279 -
+   No IP instance named v_scaler_zed is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] Error 2
+make: Target `all' not remade because of errors.
+18:24:28 **** Auto Build of configuration Debug for project hdmi_splitter ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+../src/platform.c:42:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/platform.o] Error 1
+18:24:28 **** Auto Build of configuration Debug for project camera_app ****
+make all 
+'Building file: ../src/camera_app.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hdmi_splitter_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.d" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.c:19:0:
+../src/camera_app.h:22:25: fatal error: xparameters.h: No such file or directory
+compilation terminated.
+make: *** [src/camera_app.o] Error 1
