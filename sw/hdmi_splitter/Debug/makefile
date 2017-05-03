@@ -35,7 +35,7 @@ all: hdmi_splitter.elf secondary-outputs
 hdmi_splitter.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM gcc linker'
-	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hdmi_splitter_bsp/ps7_cortexa9_0/lib -o "hdmi_splitter.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/lib -o "hdmi_splitter.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

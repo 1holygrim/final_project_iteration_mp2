@@ -2,7 +2,8 @@ Release 14.7 - libgen Xilinx EDK 14.7 Build EDK_P.20131013
  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: libgen -hw ../system_hw_platform/system.xml -lp
+Command Line: libgen -hw ../system_hw_platform/system.xml -lp ../../repository
+-lp C:/tmp/MP-2/repository/ProcessorIPLib -lp
 C:/tmp/cpre488mp2/sw_pipeline/system_bsp/ps7_cortexa9_0 -pe ps7_cortexa9_0 -log
 libgen.log system.mss 
 

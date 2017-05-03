@@ -1,4 +1,4 @@
-18:24:28 **** Auto Build of configuration Debug for project camera_app ****
+19:56:36 **** Build of configuration Debug for project camera_app ****
 make all 
 'Building file: ../src/camera_app.c'
 'Invoking: ARM gcc compiler'
@@ -8,5 +8,5 @@ In file included from ../src/camera_app.c:19:0:
 compilation terminated.
 make: *** [src/camera_app.o] Error 1
 
-18:24:29 Build Finished (took 180ms)
+19:56:36 Build Finished (took 180ms)
 

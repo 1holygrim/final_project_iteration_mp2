@@ -1,0 +1,26 @@
+20:15:13 **** Auto Build of configuration Debug for project hdmi_splitter ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -IC:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -IC:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hdmi_splitter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/lib -o "hdmi_splitter.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hdmi_splitter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_splitter.elf  |tee "hdmi_splitter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22872	   1096	  29780	  53748	   d1f4	hdmi_splitter.elf
+'Finished building: hdmi_splitter.elf.size'
+' '
+
+20:15:13 Build Finished (took 460ms)
+

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue May 02 15:10:03 2017
+// Written by: Map P.20131013 on Tue May 02 20:28:58 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -30991,11 +30991,11 @@ TIMEGRP clock_generator_1_clock_generator_1_SIG_MMCM1_CLKOUT0 = BEL
 PIN processing_system7_0/processing_system7_0/PS7_i_pins<359> = BEL
         "processing_system7_0/processing_system7_0/PS7_i" PINNAME MAXIGP0ACLK;
 TIMEGRP clk_fpga_0 = BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_2"
+        BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_1"
         BEL
@@ -31054,6 +31054,10 @@ TIMEGRP clk_fpga_0 = BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
         BEL
@@ -31182,6 +31186,8 @@ TIMEGRP clk_fpga_0 = BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_0"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_1"
+        BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_3"
         BEL
@@ -31749,6 +31755,8 @@ TIMEGRP clk_fpga_0 = BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst"
         BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_1"
+        BEL
+        "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
         BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
         BEL
@@ -33592,11 +33600,11 @@ TIMEGRP clk_fpga_0 = BEL
         "BTNs_5Bits/BTNs_5Bits/ip2bus_data_i_D1_27" PIN
         "processing_system7_0/processing_system7_0/PS7_i_pins<359>";
 TIMEGRP CLK_50MHz = BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_2"
+        BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/m_valid_i_1"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.addr_arbiter_inst/grant_rnw_1"
-        BEL
-        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_aw/m_ready_d_2_1"
         BEL
@@ -33655,6 +33663,10 @@ TIMEGRP CLK_50MHz = BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/busy"
+        BEL
+        "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_active"
         BEL
         "axi4lite_0/axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[2].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/write_active"
         BEL
@@ -33783,6 +33795,8 @@ TIMEGRP CLK_50MHz = BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_0"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_1"
+        BEL
+        "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_2"
         BEL
         "axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/m_atarget_hot_3"
         BEL
@@ -34350,6 +34364,8 @@ TIMEGRP CLK_50MHz = BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst"
         BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_1"
+        BEL
+        "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rvalid_i"
         BEL
         "v_scaler_0/v_scaler_0/U_VIDEO_CTRL/AXI4_LITE_INTERFACE.AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bvalid_i"
         BEL

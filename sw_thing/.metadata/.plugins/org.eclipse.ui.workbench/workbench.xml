@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="20" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="409" y="-17">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="229" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.xilinx.sdk.xbash.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.xilinx.sdk.targetmanager.ui.toolbar1" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.xilinx.sdk.sw.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1493773123486" focus="true" label="Workspace - C/C++">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" partName="system.mss" path="C:/tmp/MP-2/sw_thing/standalone_bsp_0/system.mss" title="system.mss" tooltip="standalone_bsp_0/system.mss" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/standalone_bsp_0/system.mss"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" partName="helloworld.c" path="C:/tmp/MP-2/sw_thing/camera_split_app/src/helloworld.c" title="helloworld.c" tooltip="camera_split_app/src/helloworld.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/camera_split_app/src/helloworld.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1440" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="camera_app.c" partName="camera_app.c" path="C:/tmp/MP-2/sw_thing/camera_split_app/src/camera_app.c" title="camera_app.c" tooltip="camera_split_app/src/camera_app.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/camera_split_app/src/camera_app.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1980" selectionTopPixel="663"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="xscaler.h" partName="xscaler.h" path="C:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h" title="xscaler.h" tooltip="standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9115" selectionTopPixel="3128"/>
+</editor>
+<editor id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" partName="system.xml" path="C:/tmp/MP-2/sw_thing/system_hw_platform/system.xml" title="system.xml" tooltip="system_hw_platform/system.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/system_hw_platform/system.xml"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="xscaler_hw.h" partName="xscaler_hw.h" path="C:/tmp/MP-2/sw_thing/standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h" title="xscaler_hw.h" tooltip="standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14835" selectionTopPixel="4623"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView" partName="Terminal"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="142" org.eclipse.ui.ide.severityAndDescriptionField="364"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.SearchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.make.ui.makeTargetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.buildConfigActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.NavigationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.OpenActionSet"/>
+<alwaysOnActionSet id="org.eclipse.cdt.ui.CodingActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.cdt.ui.CView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.tm.terminal.view.TerminalView"/>
+<show_view_action id="org.eclipse.cdt.codan.internal.ui.views.ProblemDetails"/>
+<show_view_action id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.cdt.ui.includeBrowser"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewHeaderFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="com.xilinx.sdk.appwiz.AppWizard"/>
+<new_wizard_action id="com.xilinx.sdk.sw.ui.NewBspWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.tm.terminal.view.TerminalView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4fef1e06">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topLeft" ratio="0.18962808" ratioLeft="362" ratioRight="1547" relationship="2" relative="org.eclipse.ui.internal.ViewStack@4fef1e06">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3a5e7663" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.1063384" ratioLeft="203" ratioRight="1706" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottom" ratio="0.7991407" ratioLeft="744" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.8864734" ratioLeft="1468" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/camera_split_app/src/camera_app.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/camera_split_app/src/scaler_config.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/camera_split_app/src/helloworld.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" path="/system_hw_platform/system.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h"/>
+</editors>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2728" y="0"/>
+</item>
+<item historyLabel="scaler_config.h" index="1">
+<position info="not_deleted" x="338" y="33"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2779" y="0"/>
+</item>
+<item historyLabel="scaler_config.h" index="1">
+<position info="not_deleted" x="408" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2779" y="0"/>
+</item>
+<item historyLabel="scaler_config.h" index="1">
+<position info="not_deleted" x="408" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2383" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="helloworld.c" index="2">
+<position info="not_deleted" x="1440" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2024" y="0"/>
+</item>
+<item historyLabel="scaler_config.h" index="1">
+<position info="not_deleted" x="408" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="2024" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1982" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="7278" y="705"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="905" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="7964" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="7964" y="0"/>
+</item>
+<item historyLabel="system.xml" index="4"/>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="934" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="7964" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="946" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="8604" y="511"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="9107" y="7"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="9820" y="15"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="10774" y="20"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="10788" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1064" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="11356" y="27"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1061" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="12631" y="30"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1016" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="13676" y="0"/>
+</item>
+<item historyLabel="xscaler_hw.h" index="5">
+<position info="not_deleted" x="14835" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="1016" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="24495" y="1307"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="968" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="25516" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="969" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="9115" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="9115" y="0"/>
+</item>
+<item historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+<item historyLabel="xscaler.h" index="3">
+<position info="not_deleted" x="9115" y="0"/>
+</item>
+<item active="true" historyLabel="camera_app.c" index="0">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xscaler_hw.h" tooltip="standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h">
+<persistable path="/standalone_bsp_0/ps7_cortexa9_0/include/xscaler_hw.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.hw.ui.HwSpecXMLEditor" name="system.xml" tooltip="system_hw_platform/system.xml">
+<persistable path="/system_hw_platform/system.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xscaler.h" tooltip="standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h">
+<persistable path="/standalone_bsp_0/ps7_cortexa9_0/libsrc/scaler_v4_03_a/src/xscaler.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" tooltip="standalone_bsp_0/ps7_cortexa9_0/include/xparameters.h">
+<persistable path="/standalone_bsp_0/ps7_cortexa9_0/include/xparameters.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="camera_app.h" tooltip="camera_split_app/src/camera_app.h">
+<persistable path="/camera_split_app/src/camera_app.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="scaler_config.h" tooltip="camera_split_app/src/scaler_config.h">
+<persistable path="/camera_split_app/src/scaler_config.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="camera_app.c" tooltip="camera_split_app/src/camera_app.c">
+<persistable path="/camera_split_app/src/camera_app.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="camera_split_app/src/helloworld.c">
+<persistable path="/camera_split_app/src/helloworld.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" tooltip="standalone_bsp_0/system.mss">
+<persistable path="/standalone_bsp_0/system.mss"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="scaler_config.h" tooltip="camera_app/src/scaler_config.h">
+<persistable path="/camera_app/src/scaler_config.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="scaler_config.h" tooltip="hdmi_splitter/src/scaler_config.h">
+<persistable path="/hdmi_splitter/src/scaler_config.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="platform.c" tooltip="hdmi_splitter/src/platform.c">
+<persistable path="/hdmi_splitter/src/platform.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="platform_config.h" tooltip="hdmi_splitter/src/platform_config.h">
+<persistable path="/hdmi_splitter/src/platform_config.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="hdmi_splitter/src/main.c">
+<persistable path="/hdmi_splitter/src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="camera_app.c" tooltip="camera_app/src/camera_app.c">
+<persistable path="/camera_app/src/camera_app.c"/>
+</file>
+</mruList>
+</workbench>

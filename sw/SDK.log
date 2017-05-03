@@ -54,3 +54,7 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 18:24:27.467 INFO  - Saving repository preferences. 
 18:24:27.467 INFO  - Updating libgen.options on all BSP projects. 
 18:24:27.477 INFO  - Cleaning BSP projects in the workspace. 
+19:55:53.677 INFO  - Processing command line option -hwspec C:\tmp\MP-2\system\SDK\SDK_Export\hw\system.xml. 
+19:56:19.956 INFO  - Restoring global repository preferences: 
+		 C:\tmp\cpre488mp2\sw_pipeline\system_bsp\ps7_cortexa9_0 
+19:56:20.016 ERROR - Unable to read in MSS file C:\tmp\MP-2\sw\hdmi_splitter_bsp\system.mss. 

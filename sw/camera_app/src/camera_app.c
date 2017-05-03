@@ -27,9 +27,22 @@ int main() {
 
 	camera_config_init(&camera_config);
 	fmc_imageon_enable(&camera_config);
+	scaler_init();
+
 	camera_loop(&camera_config);
 
 	return 0;
+}
+
+
+void scaler_init(){
+
+
+	enable_sw_scaler();
+	set_output_size();
+	set_input_size();
+	set_aperature();
+	set_scale_factor();
 }
 
 

@@ -56,7 +56,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  258 paths analyzed, 258 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   3.908ns.
+ Maximum delay is   3.724ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -82,7 +82,7 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 
  18845 paths analyzed, 6120 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   6.914ns.
+ Minimum period is   6.852ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -107,9 +107,9 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 Timing constraint: TS_CLK_IN = PERIOD TIMEGRP "CLK_50MHz" 20 ns HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 38333 paths analyzed, 5741 endpoints analyzed, 0 failing endpoints
+ 38993 paths analyzed, 5784 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  11.451ns.
+ Minimum period is  11.675ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -118,9 +118,9 @@ PERIOD TIMEGRP         "clock_generator_1_clock_generator_1_SIG_MMCM1_CLKOUT0"
 TS_vclk_clk         HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 207545 paths analyzed, 42447 endpoints analyzed, 0 failing endpoints
+ 207545 paths analyzed, 42446 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   6.734ns.
+ Minimum period is   6.708ns.
 --------------------------------------------------------------------------------
 
 
@@ -131,8 +131,8 @@ Derived Constraints for TS_vclk_clk
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_vclk_clk                    |      6.734ns|      4.000ns|      6.734ns|            0|            0|            0|       207545|
-| TS_clock_generator_1_clock_gen|      6.734ns|      6.734ns|          N/A|            0|            0|       207545|            0|
+|TS_vclk_clk                    |      6.734ns|      4.000ns|      6.708ns|            0|            0|            0|       207545|
+| TS_clock_generator_1_clock_gen|      6.734ns|      6.708ns|          N/A|            0|            0|       207545|            0|
 | erator_1_SIG_MMCM1_CLKOUT0    |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -148,7 +148,7 @@ Clock to Setup on destination clock fmc_imageon_video_clk1
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-fmc_imageon_video_clk1|    6.734|         |         |         |
+fmc_imageon_video_clk1|    6.708|         |         |         |
 ----------------------+---------+---------+---------+---------+
 
 
@@ -157,21 +157,21 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 267157 paths, 0 nets, and 61151 connections
+Constraints cover 267817 paths, 0 nets, and 61251 connections
 
 Design statistics:
-   Minimum period:  11.451ns   (Maximum frequency:  87.329MHz)
-   Maximum path delay from/to any node:   3.908ns
+   Minimum period:  11.675ns   (Maximum frequency:  85.653MHz)
+   Maximum path delay from/to any node:   3.724ns
 
 
-Analysis completed Tue May 02 15:11:51 2017 
+Analysis completed Tue May 02 20:30:49 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 856 MB
+Peak Memory Usage: 857 MB
 
 
 

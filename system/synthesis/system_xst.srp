@@ -3,8 +3,8 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to C:\tmp\MP-2\system\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 TABLE OF CONTENTS
@@ -994,29 +994,29 @@ Top Level Output File Name         : system.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 18427
+# BELS                             : 18453
 #      GND                         : 32
 #      INV                         : 491
 #      LUT1                        : 369
-#      LUT2                        : 1714
-#      LUT3                        : 2334
-#      LUT4                        : 2567
-#      LUT5                        : 2160
-#      LUT6                        : 4855
-#      MUXCY                       : 1755
+#      LUT2                        : 1716
+#      LUT3                        : 2333
+#      LUT4                        : 2573
+#      LUT5                        : 2159
+#      LUT6                        : 4871
+#      MUXCY                       : 1759
 #      MUXCY_L                     : 67
 #      MUXF7                       : 299
 #      MUXF8                       : 95
 #      VCC                         : 25
 #      XORCY                       : 1664
-# FlipFlops/Latches                : 15489
+# FlipFlops/Latches                : 15492
 #      FD                          : 2658
 #      FDC                         : 547
 #      FDCE                        : 247
 #      FDE                         : 2448
 #      FDP                         : 144
 #      FDPE                        : 11
-#      FDR                         : 3871
+#      FDR                         : 3874
 #      FDRE                        : 5096
 #      FDS                         : 211
 #      FDSE                        : 254
@@ -1051,18 +1051,18 @@ Selected Device : 7z020clg484-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:           15472  out of  106400    14%  
- Number of Slice LUTs:                15503  out of  53200    29%  
-    Number used as Logic:             14490  out of  53200    27%  
+ Number of Slice Registers:           15475  out of  106400    14%  
+ Number of Slice LUTs:                15525  out of  53200    29%  
+    Number used as Logic:             14512  out of  53200    27%  
     Number used as Memory:             1013  out of  17400     5%  
        Number used as RAM:              256
        Number used as SRL:              757
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  25719
-   Number with an unused Flip Flop:   10247  out of  25719    39%  
-   Number with an unused LUT:         10216  out of  25719    39%  
-   Number of fully used LUT-FF pairs:  5256  out of  25719    20%  
+ Number of LUT Flip Flop pairs used:  25740
+   Number with an unused Flip Flop:   10265  out of  25740    39%  
+   Number with an unused LUT:         10215  out of  25740    39%  
+   Number of fully used LUT-FF pairs:  5260  out of  25740    20%  
    Number of unique control sets:       524
 
 IO Utilization: 
@@ -1098,7 +1098,7 @@ Clock Information:
 Clock Signal                                                    | Clock buffer(FF name)                                                                                                                        | Load  |
 ----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+-------+
 clock_generator_1/clock_generator_1/SIG_MMCM1_CLKOUT0           | BUFG                                                                                                                                         | 11452 |
-processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                                                                                                                                         | 1839  |
+processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>| BUFG                                                                                                                                         | 1842  |
 processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<3>| BUFG                                                                                                                                         | 1394  |
 net_gnd0                                                        | NONE(v_scaler_0/v_scaler_0/coef_we)                                                                                                          | 1696  |
 v_scaler_0/v_scaler_0/Scaler1/CoefDebug<8>                      | NONE(v_scaler_0/v_scaler_0/Scaler1/Scaler_RTI_inst/Scaler_wrap0_inst/GenerateTwoIndependentInputBuffers422.YScalerInObjFIFO/memory0/Mram_mem)| 7     |
@@ -1111,8 +1111,8 @@ Asynchronous Control Signals Information:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Buffer(FF name)                                                                                                                                                                                                                                                                                                                                                             | Load  |
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-v_scaler_0/v_scaler_0/Scaler1/SyncGen_debug<0>(v_scaler_0/v_scaler_0/Scaler1/XST_VCC:P)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | NONE(v_scaler_0/v_scaler_0/Scaler1/Scaler_RTI_inst/Scaler_wrap0_inst/Scaler_wrap0_core_u/scaler_top_inst/GenerateConfig4.Inst_scaler_C/LineBuff/mem_array_wr[2].linebufn/Mram_mem)                                                                                                                                                                                          | 1144  |
-v_scaler_0/v_scaler_0/Scaler1/CoefDebug<8>(v_scaler_0/v_scaler_0/Scaler1/XST_GND:G)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | NONE(v_scaler_0/v_scaler_0/Scaler1/Scaler_RTI_inst/Scaler_wrap0_inst/Scaler_wrap0_core_u/scaler_top_inst/GenerateConfig4.Inst_scaler_C/LineBuff/mem_array_wr[2].linebufn/Mram_mem)                                                                                                                                                                                          | 676   |
+v_scaler_0/v_scaler_0/Scaler1/SyncGen_debug<0>(v_scaler_0/v_scaler_0/Scaler1/XST_VCC:P)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | NONE(v_scaler_0/v_scaler_0/Scaler1/Scaler_RTI_inst/Scaler_wrap0_inst/Scaler_wrap0_core_u/scaler_top_inst/GenerateConfig4.Inst_scaler_Y/LineBuff/mem_array_wr[2].linebufn/Mram_mem)                                                                                                                                                                                          | 1144  |
+v_scaler_0/v_scaler_0/Scaler1/CoefDebug<8>(v_scaler_0/v_scaler_0/Scaler1/XST_GND:G)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | NONE(v_scaler_0/v_scaler_0/Scaler1/Scaler_RTI_inst/Scaler_wrap0_inst/Scaler_wrap0_core_u/scaler_top_inst/GenerateConfig4.Inst_scaler_Y/LineBuff/mem_array_wr[2].linebufn/Mram_mem)                                                                                                                                                                                          | 676   |
 axi_tpg_0/S_AXI_RRESP<0>(axi_tpg_0/XST_GND:G)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | NONE(axi_tpg_0/axi_tpg_0/USER_LOGIC_I/tpg_u1/ZPlate1_Mram_AppliedRdAddr[10]_SinTableArray[2047][7]_wide_mux_2064_OUT)                                                                                                                                                                                                                                                       | 12    |
 axi_tpg_0/N1(axi_tpg_0/XST_VCC:P)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | NONE(axi_tpg_0/axi_tpg_0/USER_LOGIC_I/tpg_u1/ZPlate1_Mram_AppliedRdAddr[10]_SinTableArray[2047][7]_wide_mux_2064_OUT)                                                                                                                                                                                                                                                       | 8     |
 v_axi4s_vid_out_0/N1(v_axi4s_vid_out_0/XST_VCC:P)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | NONE(v_axi4s_vid_out_0/v_axi4s_vid_out_0/axi4s_vid_out_top_i/out_coupler_i/bridge_async_fifo_2_i/Mram_fifo_ram)                                                                                                                                                                                                                                                             | 4     |
@@ -1138,8 +1138,8 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 6.901ns (Maximum Frequency: 144.902MHz)
-   Minimum input arrival time before clock: 2.849ns
+   Minimum period: 6.812ns (Maximum Frequency: 146.795MHz)
+   Minimum input arrival time before clock: 2.857ns
    Maximum output required time after clock: 4.374ns
    Maximum combinational path delay: 1.127ns
 
@@ -1178,10 +1178,10 @@ Delay:               4.537ns (Levels of Logic = 8)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
-  Clock period: 6.901ns (frequency: 144.902MHz)
-  Total number of paths / destination ports: 48863 / 3149
+  Clock period: 6.812ns (frequency: 146.795MHz)
+  Total number of paths / destination ports: 49713 / 3156
 -------------------------------------------------------------------------
-Delay:               6.901ns (Levels of Logic = 10)
+Delay:               6.812ns (Levels of Logic = 10)
   Source:            axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1 (FF)
   Destination:       fmc_imageon_iic_0/fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_7 (FF)
   Source Clock:      processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
@@ -1191,9 +1191,9 @@ Delay:               6.901ns (Levels of Logic = 10)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              16   0.282   0.700  axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1 (axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d<1>)
-     LUT3:I0->O           13   0.053   0.805  axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_valid_i<1>1 (axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/n0422<1>)
-     LUT6:I1->O           37   0.053   0.756  axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_req1 (M_AXI_ARVALID<3>)
+     FD:C->Q              17   0.282   0.708  axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d_1 (axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_ready_d<1>)
+     LUT3:I0->O           17   0.053   0.708  axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.splitter_ar/m_valid_i<1>1 (axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/n0422<1>)
+     LUT6:I3->O           37   0.053   0.756  axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/read_req1 (M_AXI_ARVALID<3>)
      end scope: 'axi4lite_0:M_AXI_ARVALID<3>'
      begin scope: 'fmc_imageon_iic_0:S_AXI_ARVALID'
      LUT3:I0->O           46   0.053   0.895  fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/Mmux_bus2ip_addr_i31 (fmc_imageon_iic_0/X_IIC/Bus2IIC_Addr<6>)
@@ -1205,8 +1205,8 @@ Delay:               6.901ns (Levels of Logic = 10)
      LUT6:I4->O            1   0.053   0.000  fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_IP2Bus_Data<4>9 (fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_IP2Bus_Data<27>)
      FDRE:D                    0.011          fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_4
     ----------------------------------------
-    Total                      6.901ns (0.931ns logic, 5.970ns route)
-                                       (13.5% logic, 86.5% route)
+    Total                      6.812ns (0.931ns logic, 5.881ns route)
+                                       (13.7% logic, 86.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<3>'
@@ -1286,9 +1286,9 @@ Offset:              1.320ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
-  Total number of paths / destination ports: 958 / 711
+  Total number of paths / destination ports: 974 / 722
 -------------------------------------------------------------------------
-Offset:              2.849ns (Levels of Logic = 6)
+Offset:              2.857ns (Levels of Logic = 6)
   Source:            processing_system7_0/processing_system7_0/PS7_i:MAXIGP0WVALID (PAD)
   Destination:       fmc_imageon_iic_0/fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_7 (FF)
   Destination Clock: processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0> rising
@@ -1297,7 +1297,7 @@ Offset:              2.849ns (Levels of Logic = 6)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-    PS7:MAXIGP0WVALID     12   0.000   0.000  processing_system7_0/PS7_i (M_AXI_GP0_WVALID)
+    PS7:MAXIGP0WVALID     13   0.000   0.000  processing_system7_0/PS7_i (M_AXI_GP0_WVALID)
      end scope: 'processing_system7_0:M_AXI_GP0_WVALID'
      begin scope: 'axi4lite_0:S_AXI_WVALID<0>'
      LUT5:I4->O            4   0.053   0.505  axi4lite_0/mi_protocol_conv_bank/gen_protocol_slot[3].gen_prot_conv.conv_inst/gen_axilite.gen_axilite_conv.axilite_conv_inst/M_AXI_WVALID1 (M_AXI_WVALID<3>)
@@ -1308,8 +1308,8 @@ Offset:              2.849ns (Levels of Logic = 6)
      LUT5:I0->O            1   0.053   0.000  fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].PER_CE_GEN[7].MULTIPLE_CES_THIS_CS_GEN.CE_I/Mmux_CS11 (fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<7>)
      FDRE:D                    0.011          fmc_imageon_iic_0/X_IIC/X_AXI_IPIF_SSP1/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_7
     ----------------------------------------
-    Total                      2.849ns (0.708ns logic, 2.141ns route)
-                                       (24.8% logic, 75.2% route)
+    Total                      2.857ns (0.716ns logic, 2.141ns route)
+                                       (25.1% logic, 74.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<3>'
@@ -1358,7 +1358,7 @@ Offset:              1.006ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>'
-  Total number of paths / destination ports: 1389 / 85
+  Total number of paths / destination ports: 1391 / 85
 -------------------------------------------------------------------------
 Offset:              4.374ns (Levels of Logic = 9)
   Source:            axi_vdma_0/axi_vdma_0/AXI_LITE_REG_INTERFACE_I/GEN_AXI_LITE_IF.AXI_LITE_IF_I/axi2ip_rdaddr_captured_6 (FF)
@@ -1468,7 +1468,7 @@ Source Clock                                                    |Dest:Rise|Dest:
 ----------------------------------------------------------------+---------+---------+---------+---------+
 clock_generator_1/clock_generator_1/SIG_MMCM1_CLKOUT0           |    3.256|         |         |         |
 net_gnd0                                                        |    0.719|         |         |         |
-processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>|    6.901|         |         |         |
+processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<0>|    6.812|         |         |         |
 ----------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<3>
@@ -1483,12 +1483,12 @@ processing_system7_0/processing_system7_0/FCLK_CLK_unbuffered<3>|    3.733|     
 =========================================================================
 
 
-Total REAL time to Xst completion: 41.00 secs
-Total CPU time to Xst completion: 40.46 secs
+Total REAL time to Xst completion: 39.00 secs
+Total CPU time to Xst completion: 38.14 secs
  
 --> 
 
-Total memory usage is 687248 kilobytes
+Total memory usage is 688016 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    8 (   0 filtered)

@@ -35,10 +35,6 @@ WARNING:EDK:4092 - IPNAME: v_tc, INSTANCE: v_tc_1 - Pre-Production version not
 WARNING:EDK:4092 - IPNAME: v_tc, INSTANCE: v_tc_0 - Pre-Production version not
    verified on hardware for architecture 'zynq' - C:\tmp\MP-2\system\system.mhs
    line 91 
-WARNING:EDK:4107 - IPNAME: v_scaler, INSTANCE: v_scaler_0 - base address
-   C_BASEADDR (0b00000000000000000000001111111111) is greater than high address
-   C_HIGHADDR (0b00000000000000000000000000000000) -
-   C:\tmp\MP-2\system\system.mhs line 110 
 WARNING:EDK:4088 - IPNAME: v_axi4s_vid_out, INSTANCE: v_axi4s_vid_out_0 -
    Superseded core for architecture 'zynq' - C:\tmp\MP-2\system\system.mhs line
    125 
@@ -57,10 +53,6 @@ WARNING:EDK:4092 - IPNAME: v_tc, INSTANCE: v_tc_1 - Pre-Production version not
 WARNING:EDK:4092 - IPNAME: v_tc, INSTANCE: v_tc_0 - Pre-Production version not
    verified on hardware for architecture 'zynq' - C:\tmp\MP-2\system\system.mhs
    line 91 
-WARNING:EDK:4107 - IPNAME: v_scaler, INSTANCE: v_scaler_0 - base address
-   C_BASEADDR (0b00000000000000000000001111111111) is greater than high address
-   C_HIGHADDR (0b00000000000000000000000000000000) -
-   C:\tmp\MP-2\system\system.mhs line 110 
 WARNING:EDK:4088 - IPNAME: v_axi4s_vid_out, INSTANCE: v_axi4s_vid_out_0 -
    Superseded core for architecture 'zynq' - C:\tmp\MP-2\system\system.mhs line
    125 
@@ -117,8 +109,6 @@ INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi4lite_0 - tcl is
    overriding PARAMETER C_BASEFAMILY value to zynq -
    C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_
    06_a\data\axi_interconnect_v2_1_0.mpd line 81 
-WARNING:EDK:3967 - v_scaler (v_scaler_0) - ADDRESS specified by PARAMETER
-   C_BASEADDR is ignored - C:\tmp\MP-2\system\system.mhs line 107 
 
 Computing clock values...
 INFO:EDK:1432 - Frequency for Top-Level Input Clock
@@ -147,6 +137,7 @@ Address Map for Processor processing_system7_0
   (0x51100000-0x5110ffff) v_tc_1	axi4lite_0
   (0x51200000-0x5120ffff) axi_tpg_0	axi4lite_0
   (0x52200000-0x5220ffff) v_tc_0	axi4lite_0
+  (0x52300000-0x5230ffff) v_scaler_0	axi4lite_0
 
 Checking platform address map ...
 
@@ -297,6 +288,34 @@ Creating hardware output directories ...
 Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
+IPNAME:v_vid_in_axi4s INSTANCE:v_vid_in_axi4s_0 - C:\tmp\MP-2\system\system.mhs
+line 52 - Copying cache implementation netlist
+IPNAME:v_tc INSTANCE:v_tc_1 - C:\tmp\MP-2\system\system.mhs line 72 - Copying
+cache implementation netlist
+IPNAME:v_tc INSTANCE:v_tc_0 - C:\tmp\MP-2\system\system.mhs line 91 - Copying
+cache implementation netlist
+IPNAME:v_scaler INSTANCE:v_scaler_0 - C:\tmp\MP-2\system\system.mhs line 107 -
+Copying cache implementation netlist
+IPNAME:v_axi4s_vid_out INSTANCE:v_axi4s_vid_out_0 -
+C:\tmp\MP-2\system\system.mhs line 125 - Copying cache implementation netlist
+IPNAME:processing_system7 INSTANCE:processing_system7_0 -
+C:\tmp\MP-2\system\system.mhs line 144 - Copying cache implementation netlist
+IPNAME:axi_iic INSTANCE:fmc_imageon_iic_0 - C:\tmp\MP-2\system\system.mhs line
+241 - Copying cache implementation netlist
+IPNAME:fmc_imageon_hdmi_out INSTANCE:fmc_imageon_hdmi_out_0 -
+C:\tmp\MP-2\system\system.mhs line 257 - Copying cache implementation netlist
+IPNAME:axi_vdma INSTANCE:axi_vdma_0 - C:\tmp\MP-2\system\system.mhs line 289 -
+Copying cache implementation netlist
+IPNAME:axi_tpg INSTANCE:axi_tpg_0 - C:\tmp\MP-2\system\system.mhs line 317 -
+Copying cache implementation netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_1 -
+C:\tmp\MP-2\system\system.mhs line 341 - Copying cache implementation netlist
+IPNAME:axi_gpio INSTANCE:sws_8bits - C:\tmp\MP-2\system\system.mhs line 358 -
+Copying cache implementation netlist
+IPNAME:axi_iic INSTANCE:iic_fmc - C:\tmp\MP-2\system\system.mhs line 371 -
+Copying cache implementation netlist
+IPNAME:axi_gpio INSTANCE:btns_5bits - C:\tmp\MP-2\system\system.mhs line 387 -
+Copying cache implementation netlist
 
 Elaborating instances ...
 IPNAME:v_scaler INSTANCE:v_scaler_0 - C:\tmp\MP-2\system\system.mhs line 107 -
@@ -340,46 +359,14 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:v_vid_in_axi4s_0 - C:\tmp\MP-2\system\system.mhs line 52 - Running XST
-synthesis
-INSTANCE:v_tc_1 - C:\tmp\MP-2\system\system.mhs line 72 - Running XST synthesis
-INSTANCE:v_tc_0 - C:\tmp\MP-2\system\system.mhs line 91 - Running XST synthesis
-INSTANCE:v_scaler_0 - C:\tmp\MP-2\system\system.mhs line 107 - Running XST
-synthesis
-INSTANCE:v_axi4s_vid_out_0 - C:\tmp\MP-2\system\system.mhs line 125 - Running
-XST synthesis
-INSTANCE:processing_system7_0 - C:\tmp\MP-2\system\system.mhs line 144 - Running
-XST synthesis
-INSTANCE:fmc_imageon_iic_0 - C:\tmp\MP-2\system\system.mhs line 241 - Running
-XST synthesis
-INSTANCE:fmc_imageon_hdmi_out_0 - C:\tmp\MP-2\system\system.mhs line 257 -
-Running XST synthesis
 INSTANCE:clock_generator_1 - C:\tmp\MP-2\system\system.mhs line 276 - Running
-XST synthesis
-INSTANCE:axi_vdma_0 - C:\tmp\MP-2\system\system.mhs line 289 - Running XST
-synthesis
-INSTANCE:axi_tpg_0 - C:\tmp\MP-2\system\system.mhs line 317 - Running XST
-synthesis
-INSTANCE:axi_interconnect_1 - C:\tmp\MP-2\system\system.mhs line 341 - Running
 XST synthesis
 INSTANCE:axi4lite_0 - C:\tmp\MP-2\system\system.mhs line 350 - Running XST
 synthesis
-INSTANCE:sws_8bits - C:\tmp\MP-2\system\system.mhs line 358 - Running XST
-synthesis
-INSTANCE:iic_fmc - C:\tmp\MP-2\system\system.mhs line 371 - Running XST
-synthesis
-INSTANCE:btns_5bits - C:\tmp\MP-2\system\system.mhs line 387 - Running XST
-synthesis
 
 Running NGCBUILD ...
-IPNAME:system_v_scaler_0_wrapper INSTANCE:v_scaler_0 -
-C:\tmp\MP-2\system\system.mhs line 107 - Running NGCBUILD
 IPNAME:system_clock_generator_1_wrapper INSTANCE:clock_generator_1 -
 C:\tmp\MP-2\system\system.mhs line 276 - Running NGCBUILD
-IPNAME:system_axi_vdma_0_wrapper INSTANCE:axi_vdma_0 -
-C:\tmp\MP-2\system\system.mhs line 289 - Running NGCBUILD
-IPNAME:system_axi_interconnect_1_wrapper INSTANCE:axi_interconnect_1 -
-C:\tmp\MP-2\system\system.mhs line 341 - Running NGCBUILD
 IPNAME:system_axi4lite_0_wrapper INSTANCE:axi4lite_0 -
 C:\tmp\MP-2\system\system.mhs line 350 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
@@ -388,4 +375,4 @@ INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
 
 Rebuilding cache ...
 
-Total run time: 1211.00 seconds
+Total run time: 61.00 seconds
